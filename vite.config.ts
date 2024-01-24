@@ -13,15 +13,6 @@ export default defineConfig({
             name: 'aleo-adapters',
             fileName: (format) => `index.${format}.js`,
         },
-        rollupOptions: {
-            external: ['react', 'react-dom'],
-            output: {
-                globals: {
-                    react: 'React',
-                    'react-dom': 'ReactDOM',
-                },
-            },
-        },
         sourcemap: false,
         emptyOutDir: true,
     },
