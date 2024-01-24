@@ -10,7 +10,7 @@ export default defineConfig({
         target: 'es6',
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
-            name: 'aleo-wallet-hooks',
+            name: 'aleo-adapters',
             fileName: (format) => `index.${format}.js`,
         },
         rollupOptions: {
@@ -22,7 +22,7 @@ export default defineConfig({
                 },
             },
         },
-        sourcemap: true,
+        sourcemap: false,
         emptyOutDir: true,
     },
 })
