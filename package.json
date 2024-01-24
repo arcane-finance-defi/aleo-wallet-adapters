@@ -1,0 +1,67 @@
+{
+  "name": "aleo-adapters",
+  "private": false,
+  "version": "1.0.3",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "aleo",
+    "aleo-adapters",
+    "aleo blockchain",
+    "aleo wallet",
+    "puzzle",
+    "puzzle wallet",
+    "soter wallet",
+    "fox wallet",
+    "aleo fox",
+    "aleo react"
+  ],
+  "author": "arcane-finance",
+  "repository": "https://github.com/arcane-finance-defi/aleo-adapters",
+  "bugs": "https://github.com/arcane-finance-defi/aleo-adapters/issues",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
+    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc"
+  },
+  "dependencies": {
+    "@demox-labs/aleo-wallet-adapter-base": "0.0.19",
+    "@demox-labs/aleo-wallet-adapter-leo": "^0.0.21",
+    "@puzzlehq/sdk": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-hooks": "^1.0.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.3.1"
+  }
+}
