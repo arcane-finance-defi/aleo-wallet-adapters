@@ -1,7 +1,7 @@
 {
   "name": "aleo-adapters",
   "private": false,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "license": "MIT",
   "main": "dist/index.js",
@@ -40,5 +40,4 @@
     "webpack-cli": "^5.0.0",
     "process": "^0.11.10"
   }
-  
 }
