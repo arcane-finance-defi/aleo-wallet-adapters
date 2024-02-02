@@ -38,7 +38,8 @@ import {
   PuzzleWalletAdapter, 
   LeoWalletAdapter, 
   FoxWalletAdapter, 
-  SoterWalletAdapter, 
+  SoterWalletAdapter,
+  AvailWalletAdapter, 
   configureConnectionForPuzzle 
 } from 'aleo-adapters';
 import "./App.css";
@@ -56,6 +57,9 @@ function App() {
                 appName: 'Aleo app',
             }),
             new SoterWalletAdapter({
+                appName: 'Aleo app',
+            }),
+            new AvailWalletAdapter({
                 appName: 'Aleo app',
             })
         ],
@@ -101,3 +105,4 @@ and build your next big Aleo dApp!
 - Fox Wallet: An Aleo wallet adapter for Fox Wallet.
 - Puzzle Wallet: An Aleo wallet adapter for Puzzle Wallet.
 - Soter Wallet: An Aleo wallet adapter for Soter Wallet.
+- [Avail Wallet](https://avail.global): An Aleo wallet adapter for Avail Wallet.
