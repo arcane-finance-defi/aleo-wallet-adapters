@@ -1,6 +1,6 @@
 # Aleo Adapters
 
-Aleo Wallet Adapters library is an easy to use, yet flexible and robust library of adapters for wallets such as: Leo, Fox, Soter, Puzzle.
+Aleo Wallet Adapters library is an easy to use, yet flexible and robust library of adapters for wallets such as: Leo, Fox, Soter, Puzzle, Avail.
 
 This library allows you to simply import wallet adapters and conveniently integrate them into your project.
 
