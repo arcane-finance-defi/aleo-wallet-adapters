@@ -10,6 +10,9 @@ export type { FoxWindow } from './fox.js';
 export { PuzzleWalletAdapter, PuzzleWalletName } from './puzzle.js';
 export type { PuzzleWindow, PuzzleWalletAdapterConfig } from './puzzle.js';
 
+export {AvailWalletAdapter, AvailWalletName} from './avail.js';
+export type { AvailWindow, AvailWalletAdapterConfig } from './avail.js';
+
 export { SoterWalletAdapter, SoterWalletName } from './soter.js';
 export type { SoterWindow, SoterWalletAdapterConfig } from './soter.js';
 
