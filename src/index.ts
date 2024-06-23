@@ -1,6 +1,5 @@
 export { configureConnection as configureConnectionForPuzzle } from '@puzzlehq/sdk';
 
-
 export { LeoWalletAdapter, LeoWalletName } from '@demox-labs/aleo-wallet-adapter-leo';
 export type { LeoWallet, LeoWalletEvents, LeoWindow, LeoWalletAdapterConfig } from '@demox-labs/aleo-wallet-adapter-leo';
 
