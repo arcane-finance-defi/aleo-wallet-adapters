@@ -151,7 +151,7 @@ import {
         try {
           const filter = {
             programIds: [program],
-            type: "unspent"
+            status: "Unspent"
           } as RecordsFilter;
           const result = await getRecords({address: this.publicKey, filter});
           if (result.error) {
