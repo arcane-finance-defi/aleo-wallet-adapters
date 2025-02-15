@@ -94,8 +94,8 @@ and build your next big Aleo dApp!
 
 ## Supported Wallets
 
-- Leo Wallet: An Aleo wallet adapter for Leo Wallet.
+- [Avail Wallet](https://avail.global): An Aleo wallet adapter for Avail Wallet.
 - Fox Wallet: An Aleo wallet adapter for Fox Wallet.
+- Leo Wallet: An Aleo wallet adapter for Leo Wallet.
 - Puzzle Wallet: An Aleo wallet adapter for Puzzle Wallet.
 - Soter Wallet: An Aleo wallet adapter for Soter Wallet.
-- [Avail Wallet](https://avail.global): An Aleo wallet adapter for Avail Wallet.
