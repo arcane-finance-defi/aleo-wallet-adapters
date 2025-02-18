@@ -1,7 +1,7 @@
 {
     "name": "aleo-adapters",
     "private": false,
-    "version": "1.2.0",
+    "version": "1.2.1",
     "type": "module",
     "license": "MIT",
     "main": "dist/index.js",
@@ -23,21 +23,21 @@
         "aleo react"
     ],
     "author": "arcane-finance",
-    "repository": "https://github.com/arcane-finance-defi/aleo-adapters",
-    "bugs": "https://github.com/arcane-finance-defi/aleo-adapters/issues",
+    "repository": "https://github.com/arcane-finance-defi/aleo-wallet-adapters",
+    "bugs": "https://github.com/arcane-finance-defi/aleo-wallet-adapters/issues",
     "scripts": {
         "build": "tsc"
     },
     "dependencies": {
         "@demox-labs/aleo-wallet-adapter-base": "0.0.22",
         "@demox-labs/aleo-wallet-adapter-leo": "^0.0.24",
-        "@puzzlehq/sdk": "^1.0.1"
+        "@puzzlehq/sdk": "^1.0.3"
     },
     "devDependencies": {
+        "process": "^0.11.10",
         "ts-loader": "^9.4.1",
         "typescript": "^4.9.3",
         "webpack": "^5.75.0",
-        "webpack-cli": "^5.0.0",
-        "process": "^0.11.10"
+        "webpack-cli": "^5.0.0"
     }
 }

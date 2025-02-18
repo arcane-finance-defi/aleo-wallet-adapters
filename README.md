@@ -1,6 +1,6 @@
 # Aleo Adapters
 
-Aleo Wallet Adapters library is an easy to use, yet flexible and robust library of adapters for wallets such as: Leo, Fox, Soter, Puzzle, Avail.
+Aleo Wallet Adapters library is an easy to use, yet flexible and robust library of adapters for wallets such as: Leo, Fox, Soter, Puzzle
 
 This library allows you to simply import wallet adapters and conveniently integrate them into your project.
 
@@ -19,7 +19,7 @@ Export adapters which you want to use
 #### 🛠️Quick start
 
 ```
-npx create-react-app aleo_dapp 
+npx create-react-app aleo_dapp
 cd aleo_dapp
 ```
 
@@ -27,20 +27,18 @@ Install adapters library:
 
 `npm install aleo-adapters`
 
-
 Replace code in `src/App.js` with:
 
 ```javascript
 import { useMemo } from "react";
 import { WalletProvider } from "aleo-hooks";
 
-import { 
-  PuzzleWalletAdapter, 
-  LeoWalletAdapter, 
-  FoxWalletAdapter, 
+import {
+  PuzzleWalletAdapter,
+  LeoWalletAdapter,
+  FoxWalletAdapter,
   SoterWalletAdapter,
-  AvailWalletAdapter, 
-  configureConnectionForPuzzle 
+  configureConnectionForPuzzle
 } from 'aleo-adapters';
 import "./App.css";
 
@@ -91,11 +89,9 @@ Launch it with:
 
 and build your next big Aleo dApp!
 
-
 ## Supported Wallets
 
-- Leo Wallet: An Aleo wallet adapter for Leo Wallet.
-- Fox Wallet: An Aleo wallet adapter for Fox Wallet.
-- Puzzle Wallet: An Aleo wallet adapter for Puzzle Wallet.
-- Soter Wallet: An Aleo wallet adapter for Soter Wallet.
-- [Avail Wallet](https://avail.global): An Aleo wallet adapter for Avail Wallet.
+-   Leo Wallet: An Aleo wallet adapter for Leo Wallet.
+-   Fox Wallet: An Aleo wallet adapter for Fox Wallet.
+-   Puzzle Wallet: An Aleo wallet adapter for Puzzle Wallet.
+-   Soter Wallet: An Aleo wallet adapter for Soter Wallet.
